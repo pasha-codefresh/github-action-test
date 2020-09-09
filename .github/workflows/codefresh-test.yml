@@ -18,4 +18,5 @@ jobs:
        PIPELINE_NAME: 'github-action/github-action-test'
        TRIGGER_NAME: 'verchol/kubecli'
        CF_API_KEY: ${{ secrets.CF_API_TOKEN }}
+       BRANCH: v1
        id: run-pipeline
